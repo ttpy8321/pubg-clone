@@ -1,0 +1,117 @@
+.line_up {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.line_up:first-child {
+	border-top: 1px solid black;
+}
+
+.border_1px_solid_white {
+	border: 1px solid white;
+}
+.border_1px_solid_gray {
+	border: 1px solid gray;
+}
+.border_1px_solid_silver {
+	border: 1px solid silver;
+}
+.border_left_1px_solid_silver {
+	border-left: 1px solid silver;
+}
+.border_1px_solid_black {
+	border: 1px solid black;
+}
+.border_right_1px_solid_white {
+	border-right: 1px solid white;
+}
+.border_right_1px_solid_gray {
+	border-right: 1px solid gray;
+}
+.border_right_1px_solid_black {
+	border-right: 1px solid black;
+}
+
+.border_1px_solid_silver {
+	border
+}
+
+.class {
+		border: 1px solid;
+		border: 1px solid #dfe1e5;
+		border: 1em solid orangered;
+		border: 5px solid red;
+		border: 4px dotted blue;
+		border: double;
+		border: 1px solid #000000;
+
+		/* 상속; 기본값; */
+		border-collapse: separate;
+		/* 상속; */
+		border-collapse: collapse;
+
+		border-color: #FFFFFF;
+		border-color: #000000;
+
+		/* first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner */
+		border-radius: 15px 50px 30px 5px;
+		/* first value applies to top-left corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner */
+		border-radius: 15px 50px 30px;
+		/* first value applies to top-left and bottom-right corners, and the second value applies to top-right and bottom-left corners */
+		border-radius: 15px 50px;
+		/* the value applies to all four corners, which are rounded equally */
+		border-radius: 15px;
+		/* Defines the shape of the corners. Default value is 0. */
+		border-radius: 0;
+		/* Defines the shape of the corners in % */
+		border-radius: 10%;
+		border-radius: 24px;
+		border-radius: 50%;
+
+		border-right-color: #ffffff;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right: 1px solid #ffffff;
+		border-right: 1px solid #000000;
+		border-bottom: 2px solid #000000;
+
+		border: 0 
+}
+
+.chat {
+		background: #fff;
+		border-radius: 8px;
+		padding: 16px 24px;
+		max-width: 60%;
+		line-height: 1.8;
+		position: relative;
+}
+	
+.text::before {
+		content: '';
+		width: 100px;
+		height: 100px;
+		background:tomato;
+		border: 1px solid red;
+		/* border-top: 8px solid transparent;
+		border-left: 8px solid transparent;
+		border-bottom: 8px solid transparent;
+		border-right: 8px solid white; */
+		position: absolute;
+		/* top: 12px;
+		left: -16px; */
+	}
+/*   
+	.left-side .text::before {
+		top: 12px;
+		left: -16px;
+		border-right-color: #fff;
+	}
+	
+	.right-side .text::before {
+		top: 12px;
+		right: -16px;
+		border-left-color: #fff;
+	} */

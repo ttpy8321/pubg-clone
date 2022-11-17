@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+
+.font_size_3em {
+    /* 해당 글꼴의 대문자 M의 너비를 기준으로 크기를 조절 */
+    font-size: 3em;
+}
+.font_size_8px {
+    /* 픽셀. 모니터에 따라 상대적 크기가 됩니다. */
+    font-size: 8px;
+}
+.font_size_3em {
+    /* 해당 글꼴의 대문자 M의 너비를 기준으로 크기를 조절 */
+    font-size: 3em;
+}
+
+
+.font_weight_normal {
+    /* 일반적인 형태로 기본 값입니다. */
+    font-weight: normal;
+}
+.font_weight_bold {
+    /* 굵게 */
+    font-weight: bold;
+}
+.font_weight_lighter {
+    /* 원래 굵기보다 더 가늘게 */
+    font-weight: lighter;
+}
+.font_weight_bolder {
+    /* 원래 굵기보다 더 굵게 나타냅니다. */
+    font-weight: bolder;
+}
+.font_weight_100 {
+    /* normal에 해당 */
+    font-weight: 100;
+}
+.font_weight_400 {
+    /* normal에 해당 */
+    font-weight: 400;
+}
+.font_weight_700 {
+    /* bold에 해당 */
+    font-weight: 700;
+}
+.font_weight_900 {
+    /* normal에 해당 */
+    font-weight: 900;
+}
+
+
+.font_variant_normal {
+    /* 일반적인 형태로 표시 */
+    font-variant: normal;
+}
+.font_variant_small-caps {
+    /* 작은 대문자로 표시 */
+    font-variant: small-caps;
+}
+
+
+.font_style 
+
+
+
+
+
+
+
+
+
+.text_ellipsis {
+    /* The overflow is clipped, and the rest of the content will be invisible */
+    overflow: hidden;
+    /* Render an ellipsis ("...") to represent the clipped text */
+    text-overflow: ellipsis;
+    /* Text will never wrap to the next line. The text continues on the same line until a <br> tag is encountered */
+    white-space: nowrap;
+}
+
+/* 서버에 직접 업로드하는 경우 */
+@font-face {
+    font-family: NanumSquareWeb;
+    src: url(../webfont/NanumSquareR.eot);
+    src: url(../webfont/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+    url(../webfont/NanumSquareR.woff2) format('woff2'),
+    url(../webfont/NanumSquareR.woff) format('woff'),
+    url(../webfont/NanumSquareR.ttf) format('truetype');
+}
+   h1 {
+    font-family: NanumSquareWeb, sans-serif;
+}
+
+
+/* 상속, inline 적용된 것에 텍스트들을 없앨 때 사용 */
+.font_size_0{
+    font-size: 0;
+}
+.font_size_8px{
+    font-size: 8px;
+}
+/* 크롬은 최소 font-size가 10이다. */
+.font_size_10px{
+    font-size: 10px;
+}
+.font_size_12px{
+    font-size: 12px;
+}
+.font_size_14px{
+    font-size: 14px;
+}
+/* 상속 */
+.color_inherit {
+    color: inherit;
+}
+.color_white {
+    color: #FFFFFF;
+}
+
+.font_weight_bold {
+    font-weight: bold;
+}
+/* 먼저 Georgia 글꼴을 찾습니다. 해당 글꼴이 있다면 사용하고, 없다면 Malgun Gothic 글꼴을 사용합니다. 그 글꼴도 없다면 마지막 글꼴을 사용합니다. */
+.font_family {
+    font-family: Georgia, "Malgun Gothic", serif;
+}

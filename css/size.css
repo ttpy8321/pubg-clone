@@ -1,0 +1,212 @@
+.box_sizing_content_box {
+	/* width 속성 값을 콘텐츠 영역 너비 값으로 사용합니다. 기본 값입니다. */
+	box-sizing: content-box;
+}
+.box_sizing_border_box {
+	/* width 속성 값을 콘텐츠 영역에 테두리까지 포함한 박스 모델 전체 너비 값으로 사용합니다. */
+	box-sizing: border-box;
+}
+
+.min_width_0 {
+	min-width: 0;
+}
+.min_width_32px {
+	min-width: 32px;
+}
+.min_width_0pct {
+	min-width: 0%;
+}
+.min_width_30pct {
+	min-width: 30%;
+}
+.min_width_128px {
+	min-width: 128px;
+}
+
+.width_auto {
+	width: auto;
+}
+.width_0 {
+	width: 0;
+}
+.width_8px {
+	width: 8px;
+}
+.width_16px {
+	width: 16px;
+}
+.width_24px {
+	width: 24px;
+}
+.width_32px {
+	width: 32px;
+}
+.width_40px {
+	width: 40px;
+}
+.width_48px {
+	width: 48px;
+}
+.width_56px {
+	width: 56px;
+}
+.width_64px {
+	width: 64px;
+}
+.width_72px {
+	width: 72px;
+}
+.width_80px {
+	width: 80px;
+}
+.width_88px {
+	width: 88px;
+}
+.width_96px {
+	width: 96px;
+}
+.width_128px {
+	width: 128px;
+}
+.width_200px {
+	width: 200px;
+}
+.width_240px {
+	width: 240px;
+}
+.width_256px {
+	width: 256px;
+}
+.width_300px {
+	width: 300px;
+}
+.width_400px {
+	width: 400px;
+}
+.width_800px {
+	width: 800px;
+}
+
+.width_10pct {
+	width: 10%;
+}
+.width_20pct {
+	width: 20%;
+}
+.width_25pct {
+	width: 25%;
+}
+.width_33pct {
+	width: 33.3333333333%;
+}
+.width_30pct {
+	width: 30%;
+}
+.width_40pct {
+	width: 40%;
+}
+.width_45pct {
+	width: 45%;
+}
+.width_50pct {
+	width: 50%;
+}
+.width_60pct {
+	width: 60%;
+}
+.width_66pct {
+	width: 66.6666666666%;
+}
+.width_70pct {
+	width: 70%;
+}
+.width_75pct {
+	width: 75%;
+}
+.width_80pct {
+	width: 80%;
+}
+.width_90pct {
+	width: 90%;
+}
+.width_100pct {
+	width: 100%;
+}
+.width_100vw {
+	width: 100vw;
+}
+
+.max_width_100pct {
+	max-width: 100%;
+}
+
+.height_auto {
+	/* the element height will depend upon the height of its children. */
+	/* 자식 기준으로 자동 조절된다. */
+	height: auto;
+}
+.height_8px {
+	height: 8px;
+}
+.height_16px {
+	height: 16px;
+}
+.height_24px {
+	height: 24px;
+}
+.height_32px {
+	height: 32px;
+}
+.height_40px {
+	height: 40px;
+}
+.height_48px {
+	height: 48px;
+}
+.height_56px {
+	height: 56px;
+}
+.height_64px {
+	height: 64px;
+}
+.height_72px {
+	height: 72px;
+}
+.height_80px {
+	height: 80px;
+}
+.height_88px {
+	height: 88px;
+}
+.height_96px {
+	height: 96px;
+}
+.height_200px {
+	height: 200px;
+}
+.height_240px {
+	height: 240px;
+}
+.height_280px {
+	height: 280px;
+}
+.height_400px {
+	height: 400px;
+}
+
+.height_50pct {
+	height: 50%;
+}
+.height_100pct {
+	/* It is often used to define a size as relative to an element's parent object. */
+	/* Note: Only calculated values can be inherited. Thus, even if a percentage value is used on the parent property, a real value (such as a width in pixels for a <length> value) will be accessible on the inherited property, not the percentage value. */
+	/* 부모 기준으로 자동 조절된다. */
+	height: 100%;
+}
+.height_100vh {
+	height: 100vh;
+}
+
+.font_size_8px {
+	font-size: 8px;
+}

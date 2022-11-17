@@ -1,0 +1,72 @@
+/* 
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] + label span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../img/radio_button_unchecked_black.png) left top no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+input[type="radio"]:checked + label span {
+    background: url(../img/radio_button_checked_black.png) top no-repeat;
+    background-size: contain;
+} */
+/*
+input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}*/
+/* input[type="radio"] + label {
+
+} */
+/*input[type="radio"] + label span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: -3px 4px 0 0;
+    vertical-align: middle;
+    background: url("../img/checkbox.png") left top no-repeat;
+    background-size: 16px 16px;
+    cursor: pointer;
+}*/
+/*input[type="radio"]:checked + label span {
+    width: 16px;
+    height: 16px;
+    background: url("../img/checkbox_checked.png") left top no-repeat;
+    background-size: 16px 16px;
+}*/
+
+/*
+input[id="menu_icon"]:checked + label div:nth-of-type(1) {
+    transform: translateY(0.2rem) rotate(-45deg);
+}
+input[id="menu_icon"]:checked + label div:nth-of-type(2) {
+    transform: translateY(-0.2rem) rotate(45deg);
+
+}*/
+
+/*main > input {
+    display: none;
+}*/
+main article > input:checked + label {
+    color: gold;
+}
+.conbox {
+    display: none;
+}
+input[id="tab01"]:checked ~ .con1 {
+    display: block;
+}
+input[id="tab02"]:checked ~ .con2 {
+    display: block;
+}
+input[id="tab03"]:checked ~ .con3 {
+    display: block;
+}
+input[id="tab04"]:checked ~ .con4 {
+    display: block;
+}

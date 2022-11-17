@@ -1,0 +1,144 @@
+@import "animation.css";
+@import "border.css";
+@import "button.css";
+@import "color.css";
+@import "display.css";
+@import "flex.css";
+@import "font.css";
+@import "grid.css";
+@import "pseudo.css";
+@import "image.css";
+@import "margin.css";
+@import "position.css";
+@import "reset.css";
+@import "size.css";
+@import "supports.css";
+@import "tag.css";
+@import "media.css";
+
+a:link {
+	color: red;
+}
+
+/* 초기화 */
+body {
+	margin: 0;
+}
+
+
+
+.ribbon {
+	background-color: #5BC8F7;
+}
+.ribbon::after {
+	content: "멋진 주황색 상자입니다.";
+	background-color: #FFBA10;
+	border-color: black;
+	border-style: dotted;
+}
+
+/* 빔캠프 */
+.list-item-icon {
+	flex-shrink: 0;
+	color: green;
+	fill: currentColor;
+}
+
+.hover:hover {
+	background-color: seashell;
+	cursor: pointer;
+}
+
+.hover_after:hover:after {
+    content: "\f164";
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f164";
+    font-family: "Font Awesome 5 Free";
+	/* margin-left: 10px; */
+	/* display: inline-block; */
+	/* flex: auto; */
+    color: red;
+}
+
+.hover_before:hover::before {
+    content: "\f164";
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f164";
+    font-family: "Font Awesome 5 Free";
+	/* margin-left: 10px; */
+	display: inline-block;
+    color: red;
+}
+
+.input:checked + label {
+	color: #555;
+	border: 1px solid #ddd;
+	border-top: 2px solid #2e9cdf;
+	border-bottom: 1px solid #ffffff;
+}
+
+
+
+.class {
+	// 좌우; 상하;; 
+	box-shadow: 5px 10px;
+	// 좌우; 상하; 색깔;
+	box-shadow: 5px 10px #888888;
+	// 좌우; 상하; 흐릿함; 색깔; 
+	box-shadow: 20px 20px 10px grey;
+	// 좌우; 상하; 흐릿함; 퍼짐; 색깔;
+	box-shadow: 20px 20px 50px 15px grey;
+	box-shadow: 20px 20px 50px 10px pink inset;
+
+	/* 기본값; */
+	text-overflow: clip;
+	/* 넘치는 부분 ... 출력; */
+	text-overflow: ellipsis;
+
+	transform: scale(0);
+	transform: scale(1.1);
+	transform: scale(1);
+
+	/* 기본값; 상속; 우측 여백 제한; */
+	white-space: normal;
+	/* 상속; 우측 여백 제한 해제*/
+	white-space: nowrap;
+}
+
+.display_none {
+	display: none;
+}
+/* The general sibling selector (~) selects all elements that are siblings of a specified element. */
+#tab_radio_1:checked ~ .tab_1,
+#tab_radio_2:checked ~ .tab_2
+{
+	display: flex;
+}
+
+.text::before {
+	content: '';
+	width: 0;
+	height: 0;
+	/* border: 8px solid #fff; */
+	border: 8px solid transparent;
+	position: absolute;
+}
+.left-side .text::before {
+	top: 12px;
+	left: -16px;
+	border-right-color: #fff;
+}
+.right-side .text::before {
+	top: 12px;
+	right: -16px;
+	border-left-color: #fff;
+}
+
+/* 
+h1 {
+	--my-color: blue;
+	color: var(--My-color, orange);
+	border-bottom: 3px solid var(--my-color);
+} */

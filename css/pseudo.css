@@ -1,0 +1,8 @@
+header > *:hover {
+    color: lightgoldenrodyellow;
+    /*background: linear-gradient(to bottom, black, white);*/
+}
+/*
+img:hover {
+    transform: scale(1.2);
+}*/

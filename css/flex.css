@@ -1,0 +1,320 @@
+
+.flex_direction_row {
+	/* 가로 축을 기준으로 정렬 */
+	flex-direction: row;
+}
+.flex_direction_row_reverse {
+	/* 가로로 오른쪽으로부터 정렬 */
+	flex-direction: row-reverse;
+}
+.flex_direction_column {
+	/* 세로 축을 기준으로 정렬 */
+	flex-direction: column;
+}
+.flex_direction_column_reverse {
+	/* 세로로 아래부터 정렬 */
+	flex-direction: column-reverse;
+}
+
+.justify_content_flex_start {
+	/* 가로 왼쪽 정렬 */
+	justify-content: flex-start;
+}
+.justify_content_center {
+	/* 가로 가운데 정렬 */
+	justify-content: center;
+}
+.justify_content_flex_end {
+	/* 가로 오른쪽 정렬 */
+	justify-content: flex-end;
+}
+.justify_content_space_between {
+	/* 양쪽 정렬 후, 사이에 여백 삽입 */
+	justify-content: space-between;
+}
+.justify_content_space_around {
+	/* 양쪽 정렬 후, 아이템들 좌우에 모두 같은 크기의 여백 삽입 */
+	justify-content: space-around;
+}
+
+.justify_content_flex_start {
+	/* 세로 위쪽 정렬 */
+	align-items: flex-start;
+}
+
+.align_items_center {
+	/* 세로 가운데 정렬 */
+	align-items: center;
+}
+.align_items_flex_end {
+	/* 세로 아래쪽 정렬 */
+	align-items: flex-end;
+}
+.align_items_stretch {
+	/* 세로 양쪽 정렬 */
+	align-items: stretch;
+}
+.align_items_stretch {
+	/* 세로 양쪽 정렬 */
+	align-items: stretch;
+}
+
+.flex_wrap_nowrap {
+	/* 부모의 폭이 자식의 폭보다 줄어들어도 원래 자리 그대로 */
+	flex-wrap: nowrap;
+}
+.flex_wrap_wrap {
+	/* 부모의 폭이 자식의 폭보다 줄어들 시 자식을 아래로 떨어뜨린다. 자식은 세로 남는 공간을 모두 채우면서 떨어진다. */
+	flex-wrap: wrap;
+}
+.flex_wrap_wrap_reverse {
+	flex-wrap: wrap-reverse;
+}
+
+.align_content_flex_start {
+	/* 내용물들이 본래의 높이를 가지고 위쪽 정렬 */
+	align-content: flex-start;
+}
+	/* 내용물들이 본래의 높이를 가지고 세로 가운데 정렬 */
+	align-content: center;
+	/* 내용물들이 본래의 높이를 가지고 아래쪽 정렬 */
+	align-content: flex-end;
+	/* 내용물들이 최소 크기로 줄어든 후, 아이템들 사이에 남는 여백을 갖는다. */
+	align-content: space-between;
+	/* 내용물들이 최소 크기로 줄어든 후, 위와 아래로 같은 여백을 갖는다. */
+	align-content: space-around;
+	/* 역순으로 내용물들 아래로 떨어뜨린다. */
+
+
+
+
+
+	/* 내용물들이 최소 크기로 줄어든 후, 위와 아래로 같은 여백을 갖는다. */
+    align-content: space-around;
+	/* 가로로 왼쪽으로부터 정렬 */
+	flex-direction: row;
+	/* 세로로 위부터 정렬 */
+    flex-direction: column;
+	/* 가로로 오른쪽으로부터 정렬 */
+	flex-direction: row-reverse;
+	/* 세로로 아래부터 정렬 */
+    flex-direction: column-reverse;
+
+}
+
+/* 부모에 주면 자식에게도 부여되는 속성으로 block 속성을 가진 것의 자식인 내용에게도 적용 */
+.text_align_center {
+    text-align: center;
+}
+.text_align_left {
+    text-align: left;
+}
+.text_align_right {
+    text-align: right;
+}
+.text_align_justify {
+    text-align: justify;
+}
+
+/* 상속, 각각 자신의 font-size 값을 line-height으로 부여 */
+.line_height_1 {
+    line-height: 1;
+}
+/* 상속, 현재 본인의 font-size 값을 자식에게도 같은 값으로 부여 */
+.line_height_1em {
+    line-height: 1em;
+}
+
+/* inline 또는 inline-block에만 적용 가능 */
+/* 공간이 아니라 텍스트를 기준으로 세로 정렬 */
+.vertical_align_baseline {
+    vertical-align: baseline;
+}
+
+.vertical_align_baseline {
+    vertical-align: baseline;
+}
+/* middle은 폰트 종류에 따라 높이 위치가 바뀌게 되므로, top을 주로 쓴다. */
+.vertical_align_top {
+    vertical-align: top;
+}
+
+
+
+
+.align_self_flex_start {
+	align-self: flex-start;
+}
+.align_self_center {
+	align-self: center;
+}
+.align_self_flex_end {
+	align-self: flex-end;
+}
+
+.order_1 {
+	order: 1;
+}
+.order_2 {
+	order: 2;
+}
+.order_3 {
+	order: 3;
+}
+
+.flex_grow_0 {
+	/* 기본값 */
+	flex-grow: 0;
+}
+.flex_grow_1 {
+	flex-grow: 1;
+}
+.flex_grow_2 {
+	flex-grow: 2;
+}
+.flex_grow_3 {
+	flex-grow: 3;
+}
+.flex_grow_4 {
+	flex-grow: 4;
+}
+.flex_grow_5 {
+	flex-grow: 5;
+}
+.flex_grow_6 {
+	flex-grow: 6;
+}
+.flex_grow_7 {
+	flex-grow: 7;
+}
+.flex_grow_8 {
+	flex-grow: 8;
+}
+.flex_grow_9 {
+	flex-grow: 9;
+}
+
+/* flex-item 요소의 크기가 flex-container 요소의 크기보다 클 때, 설정된 숫자값에 따라 flex-container 요소 내부에서 flex-item 요소의 크기가 축소됩니다. */
+.flex_shrink_0 {
+	flex-shrink: 0;
+}
+.flex_shrink_1 {
+	/* 기본값, 줄어드는 비율 */
+	flex-shrink: 1;
+}
+.flex_shrink_2 {
+	flex-shrink: 2;
+}
+
+.flex_basis_auto {
+	/* Default value. The length is equal to the length of the flexible item. If the item has no length specified, the length will be according to its content */
+	flex-basis: auto;
+}
+.flex_basis_0 {
+	/* flex-basis 속성에서 auto와 함께 자주 사용하는 속성값이 0이다. flex-basis 속성의 값을 0으로 설정하면 flex item은 절대적 flex item(absolute flex item)이 되어 flex container를 기준으로 크기가 결정된다. */
+	/* flex-basis 속성의 값을 0으로 선언할 때에는 flex-basis: 0px, flex-basis: 0%와 같이 단위도 함께 설정해야 한다. */
+	flex-basis: 0;
+}
+.flex_basis_0pct {
+	flex-basis: 0%;
+}
+
+/* 요소의 너비를 정한다. */
+.flex_basis_auto {
+	/* 기본값. 아이템이 width로 너비가 지정되어 있다면, 그 너비를 가진다. 너비가 지정되지 않았다면 들어가 있는 내용에 따라 너비가 달라진다. */
+	/* min-width의 초기값도 auto이다. 그러므로 flex-basis: auto 설정되어 있다면 min-width: auto가 먼저 적용되어 아이템의 길이에 따라 박스의 크기가 결정된다. 이때 min-width: 0 사용하여 min-width 값을 초기화하여 flex-basis: auto를 사용할 수 있게 한다. */
+	flex-basis: auto;
+}
+.flex_basis_32px {
+	flex-basis: 32px;
+}
+.flex_basis_40px {
+	flex-basis: 40px;
+}
+.flex_basis_64px {
+	flex-basis: 64px;
+}
+.flex_basis_96px {
+	flex-basis: 96px;
+}
+.flex_basis_128px {
+	flex-basis: 128px;
+}
+.flex_basis_200px {
+	/* width로 너비를 정했어도, flex-basis에 너비가 숫자로 들어가 있다면, flex-basis의 너비를 우선으로 한다. 하지만 min-width, max-width의 수치가 들어가 있다면 이 수치를 최우선으로 한다. */
+	flex-basis: 200px;
+}
+
+.flex_initial {
+	/* 기본값 */
+	/* 0 1 auto */
+	flex: initial;
+}
+.flex_auto {
+	/* 1 1 auto */
+	flex: auto;
+}
+
+.flex_none {
+	/* 0 0 auto */
+	flex: none;
+}
+
+.flex_1_1_32px {
+	flex: 1 1 32px;
+}
+.flex_1_1_64px {
+	flex: 1 1 64px;
+}
+/* flex-grow: 1; flex-shrink: 1; flex-basis: 100px; */
+.flex_1_1_100px {
+	flex: 1 1 100px;
+}
+.flex_1_1_100pct {
+	flex: 1 1 100%;
+}
+.flex_0_1_auto {
+	flex: 0 1 auto;
+}
+.flex_1_1_auto {
+	flex: 1 1 auto;
+}
+.flex_0_0_auto {
+	flex: 0 0 auto;
+}
+.flex_1_1_0pct {
+	flex: 1 1 0%;
+}
+.flex_1_1_0 {
+	flex: 1 1 0;
+}
+
+/* 들어가 있는 아이템들의 너비를 모조리 0으로 만든 후, 다시 분배한다. flex 다음의 수에 비율로 배분한다. */
+/* flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
+.flex_1 {
+	flex: 1;
+}
+.flex_2 {
+	flex: 2;
+}
+.flex_3 {
+	flex: 3;
+}
+.flex_4 {
+	flex: 4;
+}
+.flex_5 {
+	flex: 5;
+}
+.flex_6 {
+	flex: 6;
+}
+.flex_7 {
+	flex: 7;
+}
+.flex_8 {
+	flex: 8;
+}
+.flex_9 {
+	flex: 9;
+}

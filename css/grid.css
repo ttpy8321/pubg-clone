@@ -1,0 +1,99 @@
+.grid_template_columns_100px_2fr_1fr {
+    grid-template-columns: 100px 2fr 1fr;
+}
+.grid_template_rows_100px_100px {
+    grid-template-rows: 100px 100px;
+}
+
+.gap_10px {
+    gap: 10px;
+}
+.gap_20px_40px {
+    gap: 20px 40px;
+}
+
+.grid_template_columns_40pct_60pct {
+    grid-template-columns: 40% 60%;
+}
+.grid_template_columns_4fr_6fr {
+    grid-template-columns: 4fr 6fr;
+}
+.grid_template_columns_200px_1fr {
+    grid-template-columns: 200px 1fr;
+}
+/* 1행 X 3열 */
+.grid_template_columns_1fr_1fr_1fr {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid_template_columns_repeat_3_1fr {
+    grid-template-columns: repeat(3, 1fr);
+}
+/* 1행 X 4열 */
+.grid_template_columns_1fr_1fr_1fr_1fr {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid_gap_1rem {
+    grid-gap: 1rem;
+}
+
+.grid_auto_rows_200px {
+    grid-auto-rows: 200px;
+}
+.grid_auto_rows_minmax_200px_auto {
+    /* 최소 200px, 내용에 맞추어 높이 auto 조정 */
+    grid-auto-rows: minmax(200px, auto);
+}
+.grid_auto_rows_minmax_10em_auto {
+    /* 최소 200px, 내용에 맞추어 높이 auto 조정 */
+    grid-auto-rows: minmax(10em, auto);
+}
+
+.justify_items_start {
+    /* 각 칸의 내용을 왼쪽 정렬 */
+    justify-items: start;
+}
+.justify_items_center {
+    /* 각 칸의 내용을 가운데 정렬 */
+    justify-items: center;
+}
+.justify_items_end {
+    /* 각 칸의 내용을 오른쪽 정렬 */
+    justify-items: end;
+}
+
+.align_items_start {
+    /* 각 칸의 내용을 위쪽 정렬 */
+    align-items: start;
+}
+.align_items_start {
+    /* 각 칸의 내용을 세로 가운데 정렬 */
+    align-items: start;
+}
+.align_items_start {
+    /* 각 칸의 내용을 아래쪽 정렬 */
+    align-items: start;
+}
+
+/* 1번째 칸 선택 */
+.item:nth-child(1) {
+    /* 1번째 칸을 시작으로 4번째 칸까지 */
+    grid-column: 1/4;
+}
+/* 4번째 칸 선택 */
+.item:nth-child(4) {
+    /* 시작 지점을 지정 */
+    grid-column: 3;
+    /* 2번째 줄을 시작으로 4번째 줄까지 */
+    grid-rows: 2/4;
+}
+/* 5번째 칸의 내용을 정렬 */
+.item:nth-child(5) {
+    justify-self: start;
+    align-items: center;
+}
+/* 9번째 칸의 내용을 정렬 */
+.item:nth-child(9) {
+    grid-column: 3;
+    grid-row: 3/5;
+}

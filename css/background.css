@@ -1,0 +1,112 @@
+.background_color_00ff00 {
+	background-color: #00ff00;
+}
+.background_color_rgb {
+	background-color: rgb(0, 255, 0);
+}
+.background_color_green {
+	background-color: green;
+}
+
+.background_clip_border_box {
+	/* 박스 모델의 가장 외곽인 border까지 적용 */
+	background-clip: border-box;
+}
+.background_clip_padding_box {
+	/* 박스 모델에서 테두리를 뺀 padding 범위까지 적용 */
+	background-clip: padding-box;
+}
+.background_clip_content_box {
+	/* 박스 모델에서 내용 부분에만 적용 */
+	background-clip: content-box;
+}
+
+.background_image_url {
+	background-image: url('bg1.png');
+}
+
+.background_repeat_repeat {
+	/* 브라우저 화면에 가득 찰 때까지 이미지를 가로와 세로로 반복 */
+	background-repeat: repeat;
+}
+.background_repeat_repeat_x {
+	/* 브라우저 창 너비와 같아질 때까지 이미지를 가로로 반복 */
+	background-repeat: repeat-x;
+}
+.background_repeat_repeat_y {
+	/* 브라우저 창 높이와 같아질 때까지 배경 이미지를 세로로 반복 */
+	background-repeat: repeat-y;
+}
+.background_repeat_no_repeat {
+	/* 배경 이미지를 한 번만 표시하고 반복하지 않습니다. */
+	background-repeat: no-repeat;
+}
+
+.background_size_auto {
+	/* 원래 이미지 크기만큼 표시 */
+	background-size: auto;
+}
+.background_size_contain {
+	/* 요소 안에 이미지가 다 들어오도록 이미지를 확대/축소 */
+	background-size: contain;
+}
+.background_size_cover {
+	/* 이미지로 요소를 모두 덮도록 이미지를 확대/축소 */
+	background-size: cover;
+}
+.background_size_200px_150px {
+	/* 크기 값이 하나만 주어질 경우, 그 값을 너비 값으로 인식하고 이미지의 너비/높이 비율에 맞추어 높이 값도 자동 계산 */
+	background-size: 200px 150px;
+}
+.background_size_60pct_40pct {
+	/* 속성 값이 하나라면 주어진 값은 너비 값으로 인식하고 높이 값은 자동으로 계산 */
+	background-size: 60% 40%;
+}
+
+.background_position_center_bottom {
+	/* 이미지를 중앙 하단에 배치 */
+    background-position: center bottom;
+}
+.background_position_center {
+	/* center center;일 경우, 간단히 center; */
+    background-position: center;
+}
+.background_position_0pct_0pct {
+	/* 이미지를 넣으려는 요소의 왼쪽 모서리에 이미지의 왼쪽 모서리를 */
+	background-position: 0% 0%;
+}
+.background_position_30pct_60pct {
+	/* 이미지를 넣으려는 요소의 왼쪽 모서리로부터 가로 30%, 세로 60%의 위치에 이미지의 가로, 세로가 30%, 60%인 위치를 */
+	background-position: 30% 60%;
+}
+.background_position_30px_20px {
+	/* 가로 30px, 세로 20px의 위치에 이미지의 왼쪽 상단 모서리를 */
+	background-position: 30px 20px;
+}
+
+.background_origin_border_box {
+	/* 박스 모델의 가장 외곽인 border가 기준 */
+	background-origin: border-box;
+}
+.background_origin_padding_box {
+	/* 박스 모델에서 테두리를 뺀 padding이 기준 */
+	background-origin: padding-box;
+}
+.background_origin_content_box {
+	/* 박스 모델에서 내용 부분이 기준 */
+	background-origin: content-box;
+}
+
+.background_attachment_scroll {
+	/* 화면 스크롤과 함께 이미지도 스크롤 */
+	background-attachment: scroll;
+}
+.background_attachment_fixed {
+	/* 화면 스크롤되더라도 이미지는 고정 */
+	background-attachment: fixed;
+}
+
+.background {
+	/* 별다른 속성 값을 지정하지 않으면 기본값으로 읽어요! */
+	background-size: url('images/bg3.jpg') no-repeat fixed right bottom border-box padding-box auto
+}

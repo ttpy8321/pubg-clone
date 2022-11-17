@@ -1,0 +1,24 @@
+#parents {
+	scroll-snap-type: y manatory;
+}
+
+.children {
+	scroll-snap-align: center;
+}
+
+
+
+:is(header, nav, form) button {
+	background-color: tomato;
+}
+
+
+/*
+div {
+	gap: 10px 5px;
+}
+*/
+
+img {
+	aspect-ratio: 16 / 9;
+}

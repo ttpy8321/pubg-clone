@@ -1,0 +1,6 @@
+@media (orientation: portrait) {
+	header img {
+		width: auto;
+		height: 4vh;
+	}
+}

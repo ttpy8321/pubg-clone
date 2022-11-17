@@ -1,0 +1,91 @@
+
+.margin_30px_20px_50px {
+    /* 마진 - 30px 20px 50px 20px */
+    margin: 30px 20px 50px;
+}
+.margin_30px_50px {
+    /* 마진 - 30px 50px 30px 50px */
+    margin: 30px 50px 30px 50px;
+}
+
+/* 박스 사이의 공간 제거 */
+.font_size_0 {
+	font-size: 0
+}
+
+.line_height_16px {
+	line-height: 16px;
+}
+.line_height_24px {
+	line-height: 24px;
+}
+.line_height_32px {
+	line-height: 32px;
+}
+
+.margin_top_auto {
+    /* 활용하지 않은 아래쪽 여백을 없앤다. */
+    margin-top: auto;
+}
+
+.padding_0_4px {
+    padding: 0 4px;
+}
+.padding_4px {
+    padding: 4px;
+}
+.padding_8px {
+    padding: 8px;
+}
+.padding_16px_8px {
+    padding: 16px 8px;
+}
+.padding_16px {
+    padding: 16px;
+}
+
+
+.margin_m20px_20px {
+    margin: -20px 20px
+}
+.margin_0_4px {
+    margin: 0 4px;
+}
+.margin_0_8px {
+    margin: 0 8px;
+}
+
+.margin_8px {
+    margin: 8px;
+}
+.margin_16px_8px {
+    margin: 16px 8px;
+}
+.margin_16px {
+    margin: 16px;
+}
+
+.margin_top_auto {
+    margin-top: auto;
+}
+.margin_right_4px {
+    margin-right: 4px;
+}
+.margin_right_8px {
+    margin-right: 8px;
+}
+.margin_right_16px {
+    margin-right: 16px;
+}
+.margin_left_auto {
+    margin-left: auto;
+}
+.margin_left_4px {
+    margin-left: 4px;
+}
+.margin_bottom_8px {
+    margin-bottom: 8px;
+}
+.margin_bottom_16px {
+    margin-bottom: 16px;
+}

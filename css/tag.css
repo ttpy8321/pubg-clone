@@ -1,0 +1,74 @@
+body {
+	/*font-family: 'Gowun Dodum', sans-serif;*/
+	width: 100vw;
+	font-family: 'Teko', sans-serif;
+	font-size: 0;
+	background-color: black;
+	color: white;
+	/*-ms-overflow-style: none;*/
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	position: sticky;
+	display: grid;
+	grid-template-columns: 156px 1fr;
+	align-items: center;
+	background-color: #161616;
+	/*justify-content: space-around;*/
+	/*padding: 2.5rem 0;*/
+}
+
+header a {
+	height: 100%;
+	cursor: pointer;
+	background-color: #2e2e2e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid white;
+}
+
+header a img {
+	height: 41px;
+}
+
+header nav {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+header nav div {
+	height: 100%;
+	cursor: pointer;
+	padding: 0 1.5rem;
+	line-height: 80px;
+	font-size: 1.25rem;
+}
+
+main {
+	width: 100vw;
+	height: 100vh;
+	overflow-y: auto;
+	scroll-snap-type: y mandatory;
+}
+
+
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+}
+/*
+section {
+	display: grid;
+	gap: 2.5vw 5vw;
+	scroll-snap-align: start;
+	font-size: 0.75rem;
+	color: silver;
+	padding: 10rem 5rem 2.5rem;
+}
+*/
